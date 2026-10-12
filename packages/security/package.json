@@ -1,0 +1,13 @@
+{
+  "name": "@ai-ide/security",
+  "version": "1.0.0",
+  "description": "Permission broker, secret redaction, path traversal guards, and credential store",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ai-ide/shared": "*"
+  }
+}

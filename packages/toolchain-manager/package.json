@@ -1,0 +1,14 @@
+{
+  "name": "@ai-ide/toolchain-manager",
+  "version": "1.0.0",
+  "description": "One-click toolchain manager and compiler catalog with declarative recipes for Arch, Ubuntu, Windows, and macOS",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ai-ide/shared": "*",
+    "@ai-ide/shell-adapters": "*"
+  }
+}

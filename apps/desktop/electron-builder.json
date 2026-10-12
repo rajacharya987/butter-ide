@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
+  "appId": "com.aiide.desktop",
+  "productName": "AI-IDE",
+  "copyright": "Copyright © 2026 AI-IDE Team",
+  "directories": {
+    "output": "dist-package"
+  },
+  "files": [
+    "apps/desktop/dist/**/*",
+    "packages/*/dist/**/*",
+    "templates/**/*",
+    "package.json"
+  ],
+  "linux": {
+    "target": ["AppImage", "tar.gz"],
+    "category": "Development",
+    "synopsis": "AI-First Desktop IDE with RazzShell Integration",
+    "description": "Production-grade desktop IDE with autonomous AI agent, Monaco editor, xterm.js, and first-class RazzShell support."
+  },
+  "win": {
+    "target": ["nsis", "zip"],
+    "publisherName": "AI-IDE Team"
+  },
+  "mac": {
+    "target": ["dmg", "zip"],
+    "category": "public.app-category.developer-tools"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "desktop-app",
+  "version": "1.0.0",
+  "private": true,
+  "author": "AI-IDE Team",
+  "description": "AI-First Desktop IDE with RazzShell",
+  "main": "./dist/main/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build:renderer": "vite build",
+    "build:main": "tsc -p tsconfig.main.json",
+    "build": "npm run build:main && npm run build:renderer",
+    "start": "electron ./dist/main/index.js",
+    "package": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "@ai-ide/shared": "*",
+    "@ai-ide/shell-adapters": "*",
+    "@ai-ide/ai-providers": "*",
+    "@ai-ide/security": "*",
+    "@ai-ide/workspace": "*",
+    "@ai-ide/git-integration": "*",
+    "@ai-ide/toolchain-manager": "*",
+    "@ai-ide/agent-core": "*",
+    "node-pty": "1.1.0"
+  }
+}

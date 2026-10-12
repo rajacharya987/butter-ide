@@ -1,0 +1,13 @@
+{
+  "name": "@ai-ide/git-integration",
+  "version": "1.0.0",
+  "description": "Git repository operations, status, diffs, branches, and commits",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ai-ide/shared": "*"
+  }
+}

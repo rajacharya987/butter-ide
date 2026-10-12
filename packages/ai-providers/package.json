@@ -1,0 +1,13 @@
+{
+  "name": "@ai-ide/ai-providers",
+  "version": "1.0.0",
+  "description": "Multi-provider AI engine supporting Claude, OpenAI, Gemini, Grok, and local/custom OpenAI-compatible endpoints",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ai-ide/shared": "*"
+  }
+}

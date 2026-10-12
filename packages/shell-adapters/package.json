@@ -1,0 +1,13 @@
+{
+  "name": "@ai-ide/shell-adapters",
+  "version": "1.0.0",
+  "description": "Shell adapter architecture with first-class RazzShell, PowerShell, Bash, and Zsh support",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ai-ide/shared": "*"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@ai-ide/agent-core",
+  "version": "1.0.0",
+  "description": "Autonomous AI Agent with planner, context builder, tool executor, verifier, recovery manager, and persistent memory",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ai-ide/shared": "*",
+    "@ai-ide/security": "*",
+    "@ai-ide/workspace": "*",
+    "@ai-ide/shell-adapters": "*",
+    "@ai-ide/ai-providers": "*",
+    "@ai-ide/toolchain-manager": "*",
+    "@ai-ide/git-integration": "*"
+  }
+}

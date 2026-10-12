@@ -1,0 +1,26 @@
+
+# Generated application packages
+dist-package/
+dist/
+node_modules/
+
+# Generated build files
+dist-package/
+dist/
+node_modules/
+
+# Exclude C++ template
+templates/cpp-cmake/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+dist-package/
+**/dist/
+**/dist-package/
+
+# C++ template
+templates/cpp-cmake/

@@ -1,0 +1,14 @@
+{
+  "name": "@ai-ide/workspace",
+  "version": "1.0.0",
+  "description": "Workspace file management, fast indexing, search, and boundary validation",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ai-ide/shared": "*",
+    "@ai-ide/security": "*"
+  }
+}
